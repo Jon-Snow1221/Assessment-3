@@ -1,0 +1,9 @@
+What is the internet? How does it work? What happens when you click a link?
+
+The internet is the network of connected computers that the web works on, as well as what emails and other files travel across. The “world wide web” is the information on webpages that you see when you're at a device and you're online. Think of the internet as the roads that connect towns and cities together. The world wide web contains the things you see on the roads like houses and shops. And the vehicles are the data moving around - some go between websites and others will be transferring your emails or files across the internet, separately from the web.
+
+When you click on a link, there are a ton of steps involved with how that information is accessed:
+1. When you type twitter.com in your browser, the browser goes to the DNS server, and finds the real address of the server that the website lives on.
+2. Then the browser sends an HTTP request message to the server, asking it to send a copy of the website to the client. This message, and all other data sent between the client and the server, is sent across your internet connection using TCP/IP.
+3. If the server approves the client's request, the server sends the client a "200 OK" message, which means "Of course you can look at that website! Here it is", and then starts sending the website's files to the browser as a series of small chunks called data packets.
+4. Finally, the browser assembles the small chunks (packets) into a complete web page and displays it to you.
